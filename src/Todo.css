@@ -1,0 +1,33 @@
+
+#task-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #add-task-btn {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pomodoro-timer {
+    margin-top: 20px;
+  }
+  
+  #timer-display {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #start-timer-btn, #pause-timer-btn {
+    padding: 10px;
+    margin: 0 10px;
+  }
+  

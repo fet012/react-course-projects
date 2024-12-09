@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: " sans-serif";
+  background-color: #f7f7f7;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 25pc;
+  margin: 1;
+}
+
+.card {
+  width: 450px;
+  height: 480px;
+  padding: 2px;
+  border: 4px solid #222;
+  border-collapse: collapse;
+}
+
+img {
+  width: 100%;
+  height: 50%;
+}
+
+p {
+  font-family: sans-serif;
+  margin-top: -10px;
+}
