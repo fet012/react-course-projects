@@ -1,23 +1,28 @@
 import { useState } from "react";
 import "./project5.css";
+import malePic from "./assets/male-staff-03.jpg";
+import peacePic from "./assets/80c550382a7c49ba86111a165008da20.jpg";
+import secondPic from "./assets/IMG_20220617_152127.jpg";
+import thirdPic from "./assets/teeboss.jpg";
+import femalePic from "./assets/female-staff-02.jpg";
 
 const initialFriends = [
   {
     id: 118836,
     name: "Peace",
-    image: "src/assets/80c550382a7c49ba86111a165008da20.jpg",
+    image: peacePic,
     balance: -5000,
   },
   {
     id: 933372,
     name: "Efosa",
-    image: "src/assets/IMG_20220617_152127.jpg",
+    image: secondPic,
     balance: 2000,
   },
   {
     id: 499476,
     name: "Taiwo",
-    image: "src/assets/teeboss.jpg",
+    image: thirdPic,
     balance: 0,
   },
 ];
@@ -251,11 +256,7 @@ function FormAddFriend({ onAddFriend }) {
         value={sex}
         onChange={(e) => {
           setSex(e.target.value);
-          setImage(
-            e.target.value === "male"
-              ? "src/assets/male-staff-03.jpg"
-              : "src/assets/female-staff-02.jpg"
-          );
+          setImage(e.target.value === "male" ? malePic : femalePic);
         }}
       >
         <option value="male">Male</option>
